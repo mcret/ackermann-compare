@@ -1,0 +1,17 @@
+[package]
+name = "ackermann"
+version = "0.1.0"
+edition = "2021"
+authors = ["Josh Chester <jchester@softwaresmyth.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "ackermann"
+crate-type = ["cdylib"]
+
+[dependencies]
+jni = "0.21.1"
+
+[dev-dependencies]
+rand = "0.8.5"
